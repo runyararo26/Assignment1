@@ -5,8 +5,8 @@ PI = 3.14159
 radius = 5
 area = PI * radius * radius
 
-#Use the print function to display results
+# Use the print function to display results
 print("Radius of the circle:", radius)
-#Radius
+# Radius
 print("Area of the circle:", area)
-#Area
+# Area
