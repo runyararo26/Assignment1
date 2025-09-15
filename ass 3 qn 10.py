@@ -1,3 +1,6 @@
+#server client-server with sockets
+#server listens and sends a greeting;client connects and receives.
+#run server first in one process/terminal;then client
  #server.py
 
 import socket
