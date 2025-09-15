@@ -30,11 +30,11 @@ class BinaryFileHandler(FileHandler):
     def write(self, data: bytes):
         self.path.write_bytes(data)
 
-# Demo
+# example set
 t = TextFileHandler("example.txt")
-t.write("Hello text")
+t.write("Hello Sammy")
 print(t.read())
 
 b = BinaryFileHandler("example.bin")
-b.write(b"\x00\x01\x02")
+b.write(b"0,5,20.25")
 print(b.read())
